@@ -1,0 +1,9 @@
+Package: me.trsvsr.darkbanners
+Name: DarkBanners
+Depends: mobilesubstrate, firmware (>=12.0)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Force enables the Siri Suggestion dark notification appearance for every notifcation
+Maintainer: Trevor Schmitt <tdogg9401@gmail.com>
+Author: Trevor Schmitt <tdogg9401@gmail.com>
+Section: Tweaks
