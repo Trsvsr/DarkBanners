@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+		    <key>cell</key>
+		    <string>PSGroupCell</string>
+		    <key>condensed</key>
+		    <true/>
+		    <key>headerCellClass</key>
+		    <string>HBPackageNameHeaderCell</string>
+		    <key>showVersion</key>
+		    <false/>
+		    <key>icon</key>
+		    <string>icon.png</string>
+		    <key>packageIdentifier</key>
+		    <string>me.trsvsr.darkbanners</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSGroupCell</string>
+            <key>footerText</key>
+            <string>Opposite Mode will force every notification to be light instead of dark.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.trsvsr.darkbannersprefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>me.trsvsr.darkbannersprefs/prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.trsvsr.darkbannersprefs</string>
+			<key>key</key>
+			<string>oppositeMode</string>
+			<key>label</key>
+			<string>Opposite Mode</string>
+			<key>PostNotification</key>
+			<string>me.trsvsr.darkbannersprefs/prefsChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+		    <key>big</key>
+		    <true/>
+		    <key>cellClass</key>
+		    <string>HBTwitterCell</string>
+		    <key>height</key>
+		    <integer>56</integer>
+		    <key>label</key>
+		    <string>Trevor Schmitt</string>
+		    <key>user</key>
+		    <string>Trsvsr</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>DarkBanners</string>
+</dict>
+</plist>
